@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>cu-pay | Simple UPI Payments</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="logo">₹ cu<span>pay</span></div>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#features">Features</a>
+      <a href="#pay">Pay Now</a>
+    </nav>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero">
+    <h1>Easy UPI Payments for Everyone</h1>
+    <p>cu-pay helps rickshaw drivers and small vendors accept payments securely and simply.</p>
+    <a href="#pay" class="btn">Make a Payment</a>
+  </section>
+
+  <!-- Features -->
+  <section id="features" class="features">
+    <h2>Why cu-pay?</h2>
+    <div class="feature-list">
+      <div class="card">Simple Hindi-first interface</div>
+      <div class="card">Works on low-end devices</div>
+      <div class="card">Secure UPI transactions</div>
+    </div>
+  </section>
+
+  <!-- Payment Form -->
+  <section id="pay" class="pay">
+    <h2>Make a Payment</h2>
+    <form id="paymentForm">
+      <label for="name">Your Name:</label>
+      <input type="text" id="name" required>
+      
+      <label for="amount">Amount (₹):</label>
+      <input type="number" id="amount" required>
+      
+      <label for="upi">UPI ID:</label>
+      <input type="text" id="upi" placeholder="example@upi" required>
+      
+      <button type="submit" class="btn">Pay Now</button>
+    </form>
+    <p id="status"></p>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 cu-pay. All Rights Reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

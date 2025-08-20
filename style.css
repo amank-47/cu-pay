@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #fdfdfd;
+  color: #333;
+  line-height: 1.6;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+  background: #fff;
+  border-bottom: 1px solid #eee;
+  position: sticky;
+  top: 0;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+.logo span {
+  color: red;
+}
+
+nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #444;
+  font-weight: 500;
+}
+nav a:hover {
+  color: red;
+}
+
+.hero {
+  text-align: center;
+  padding: 60px 20px;
+  background: #ffeaea;
+}
+.hero h1 {
+  font-size: 2.5rem;
+}
+.hero .btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background: red;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.features {
+  padding: 40px 20px;
+  text-align: center;
+}
+.feature-list {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.card {
+  background: white;
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 8px;
+  flex: 1;
+}
+
+.pay {
+  padding: 40px 20px;
+  background: #fafafa;
+  max-width: 500px;
+  margin: auto;
+}
+form {
+  display: flex;
+  flex-direction: column;
+}
+label {
+  margin-top: 10px;
+  font-weight: bold;
+}
+input {
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+button {
+  margin-top: 20px;
+  padding: 12px;
+  border: none;
+  background: red;
+  color: white;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+button:hover {
+  background: darkred;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #333;
+  color: white;
+  margin-top: 30px;
+}
